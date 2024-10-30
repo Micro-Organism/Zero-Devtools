@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: zero-devtools-boot
+    devtools:
+        add-properties: true
+        restart:
+            additional-paths: src/main/java
+            enabled: true
+            exclude: static/**
+logging:
+    level:
+        web: debug
